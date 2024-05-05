@@ -4,7 +4,6 @@
     warnings,
     missing_copy_implementations,
     missing_debug_implementations,
-    missing_docs,
     clippy::all,
     clippy::cargo,
     trivial_casts,
@@ -18,5 +17,5 @@
 
 extern crate alloc;
 
-mod common;
+pub mod common;
 pub mod variants;
